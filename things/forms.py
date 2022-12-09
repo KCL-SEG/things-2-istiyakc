@@ -8,4 +8,3 @@ class ThingsForm(forms.ModelForm):
         model = Thing
         fields = ["name", "description", "quantity"]
         wigets = {"description": forms.Textarea(), "quantity": forms.NumberInput()}
-
